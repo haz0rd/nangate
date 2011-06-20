@@ -6,7 +6,7 @@
 html, body, div, p, li, ul, form, fieldset, h1, h2, h3, h4, h5, h6   { margin: 0; padding: 0; list-style: none; }
 
 
-html, body    { font-family: Metrophobic; height: 100%; width: 100%; }
+html, body    { font-family: Metrophobic; width: 100%; }
 
 
 body a { text-decoration: none; }
@@ -14,9 +14,13 @@ body a { text-decoration: none; }
 
 .w1200 {
 	width: 1200px; 
+	min-height: 100%;
 	margin: 0 auto;
 	padding: 0;
-	background: #d7d9dc;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dadde0), to(#a6aaac));
+	background: -moz-linear-gradient(#dadde0, #a6aaac);
+	background: linear-gradient(#dadde0, #a6aaac);
+	-pie-background: linear-gradient(#dadde0, #a6aaac);
 }
 
 
@@ -369,11 +373,10 @@ body a { text-decoration: none; }
 	font-size: 1em;
 	height: 40px;
 	line-height: .5em;
-
 }
 
 
-#recent span{
+#recent h1 a span{
 	background: url(/img/towerz.png) 0 0 no-repeat;
 	height:40px;
 	width:40px;

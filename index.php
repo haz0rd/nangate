@@ -110,7 +110,7 @@
 						<div id="right-col">
 						
 							<div id="recent">
-								<h1> <span></span><br/> Recent Headlines </h1>
+								<h1><a href="#"> <span></span><br/> Recent Headlines</a> </h1>
 								
 								<div>
 									<a href="#"> NDO and Library Creator used by TSMC to improve chip implementation performace</a>
@@ -139,14 +139,16 @@
 						<div style="clear:both"></div>
 						
 					</div><!-- end bottom content -->
+					
 				
 				</div><!-- end content -->
+				
 			
 			</div><!-- end main top container -->
 		
 		
 			<div id="main-bottom">	 </div> <!-- bottom part of background image, makes it epandable -->
-		
+			
 		</div><!-- end main container -->
 		
 		
