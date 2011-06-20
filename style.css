@@ -6,7 +6,11 @@
 html, body, div, p, li, ul, form, fieldset, h1, h2, h3, h4, h5, h6   { margin: 0; padding: 0; list-style: none; }
 
 
-html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; position:relative;}
+html, body    { font-family: Metrophobic; height: 100%; width: 100%; }
+
+
+body a { text-decoration: none; }
+
 
 .w1200 {
 	width: 1200px; 
@@ -24,7 +28,7 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 .header{
 	margin: 0 auto;
 	padding: 0;
-	height: 123px;
+	height: 93px;
 
 }
 
@@ -32,12 +36,13 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	height: 23px;
 	padding-bottom: 0px;
 	background: url(/img/topnav_bck.png)  0 0 repeat-x;
-	border-bottom: 2px white solid;
+	border-bottom: 1px white solid;
 }
 
 #login{
 	float: right;
-	margin: 0 100px 0 0;
+	margin: 2px 100px 0 0;
+	font-size: .9em;
 }
 
 #login a{
@@ -50,13 +55,13 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 }
 
 #topmenu{
-	height: 100px;
+	height: 70px;
 	background: #d7d9dc;
 }
 
 .mainMenu{
 	position:relative;
-	margin: 40px 100px 0 0;
+	margin: 20px 100px 0 0;
 	float: right;
 }
 
@@ -81,7 +86,7 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	
 }
 
-.mainMenu ul li:hover {
+.mainMenu ul li.active {
 	background: url(/img/dots.png) 10px -4px no-repeat;
 	
 }
@@ -93,15 +98,36 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 .mainMenu ul li:hover ul li{
 	float: none;
 	display: block;
-	margin: 5px;
-	padding: 5px;
+	margin: 5px 8px 5px 0;
+	padding: 5px 8px 0 3px;
 	color: #890c0b;
 	text-transform: none;
+	
+
+}
+.mainMenu ul li:hover ul{
+	border: 1px solid #696;
+	padding: 0;
+	text-align: left; 
+	font-size: 1.2em;
+	width: 180px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: #666 0px 2px 3px;
+	-moz-box-shadow: #666 0px 2px 3px;
+	box-shadow: #666 0px 2px 3px;
+	background: #f0f3f5;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f0f3f5), to(#f0f3f5));
+	background: -moz-linear-gradient(#f0f3f5, #f0f3f5);
+	background: linear-gradient(#f0f3f5, #f0f3f5);
+	-pie-background: linear-gradient(#f0f3f5, #f0f3f5);
+	
 
 }
 
 .mainMenu li.active a {
-
+	color: #ed1c24;
 }
 
 .mainMenu ul li ul li{
@@ -118,11 +144,22 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 
 .mainMenu ul li ul{
 	position:absolute;
-	left: -80px;
+	left: -82px;
+	top: 22px;
+
 }
 
-#subnav-top{
-	background: url(/img/subnav_top_bck.png) no-repeat scroll  left top transparent;
+.subnav-top{
+
+	/* background: url(/img/subnav_top_bck.png) no-repeat scroll  left top transparent !important; */
+}
+
+.subnav-top a{
+	color: #890c0b !important;
+}
+
+.subnav-top a:hover{
+	color: #ed1c24 !important;
 }
 
 #subnav-bottom{
@@ -153,7 +190,7 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 
 #logo {
 	float: left;
-	margin: 30px 0 0 100px;
+	margin: 10px 0 0 100px;
 
 }
 
@@ -164,14 +201,13 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	position: relative;
 	width: 270px;
 	height: 50px;
-	background: url(/img/logo.png) 0 0 no-repeat;
-	cursor: pointer;
+	background: url(/img/logo.png) 0 0 no-repeat;	
 }
 
 
 /*
- *    MAIN CONTENT
- *    ===============
+ *    MAIN CONTENT FOR INDEX
+ *    ======================
  **/
 
 #main{
@@ -183,40 +219,76 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 }
 
 #main-top{
-	background: url(/img/background.png) 0 0 repeat-x;
-	min-height: 500px;
+	background: url(/img/background.png) 0 -75px scroll;
+	min-height: 700px;
 }
 
-/* 
+
 
 #main-bottom{
+	
+	clear:both;
+	/*
 	background: url(/img/background_bottom.png) no-repeat scroll bottom transparent;
 	min-height: 350px;
+     */
 }
 
-*/
+
 
 .content {
 	width: 1004px;
-	height: 100%;
 	min-height: 700px;
 	margin: 0 auto;
-	margin-bottom: 40px;
-	padding: 0;
-	background: #ebebed url(/img/content_shadow.png) 0 0  no-repeat;
+	padding: 10px 0 0 0;
+	background:  url(/img/content_shadow.png) -2px 8px  no-repeat;
 }
 
 #content-top{
-	margin: 0px 0 0 2.5px;
+	margin: 3px 0 0 2.5px;
 	padding: 0;
 	min-height: 333px;
 	background: url(/img/circuit_img.png) top left no-repeat;
 }
 
+#snippit{
+	float: left;
+	width: 333px;
+	margin: 150px 0 0 50px;
+	padding: 50px 0 0 10px;
+	color: #e1e7f5;
+	font-size: .8em;
+}
+
+#what-we-do{
+	text-decoration: none;
+	font-weight: bold;
+	color: #fecb00;	
+	display:block;
+}
+
+#what-we-do:hover{
+	color: #fae89f;	
+}
+
+#what-we-do span{
+	float: left;
+	background: url(/img/yellow_arrow.png) 5px 4px no-repeat;
+	display: block;
+	height: 15px;
+	width: 15px;
+}
+
 #content-bottom{
-	clear: both;
 	margin: 0 auto;
 	padding: 0;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f2f2f3), to(#b0b0b0));
+	background: -moz-linear-gradient(#f2f2f3, #b0b0b0);
+	background: linear-gradient(#f2f2f3, #b0b0b0);
+	-pie-background: linear-gradient(#f2f2f3, #b0b0b0);
+	height: 100%;
+	min-height: 365px;
+	width: 994px;
 }
 
 #left-col{
@@ -227,11 +299,11 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 
 }
 
-#pic{
-	margin: 0 0 0 40px;
+#wheel{
+	margin: 0 0 0 35px;
 	padding: 0;
 	float: left;
-	width: 280px;
+	width: 250px;
 	height: 280px;
 	background: url(/img/wheel.png) 0 0 no-repeat;
 }
@@ -240,7 +312,7 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	margin: 0 auto;
 	padding: 0;
 	float: right;
-	width: 340px;
+	width: 370px;
 	color: #494949;
 	font-size: .9em;
 }
@@ -250,8 +322,9 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	font-size: 1.7em;
 	text-decoration: none;
 	text-transform: none;
-	text-align: center;
+	text-align: left;
 	color: #545454;
+	font-weight: normal;
 }
 
 #info a{
@@ -260,10 +333,15 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	text-decoration: none;
 	color: #890c0b;
 	display: block;
+	font-weight: bold;
+}
+
+#info a:hover {
+	color: #ed1c24;
 }
 
 #info span{
-	background: url(/img/arrow.png) 0 2.8px no-repeat;
+	background: url(/img/red_arrow.png) 2px 5px no-repeat;
 	height:20px;
 	width:12px;
 	display: block;
@@ -274,12 +352,14 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 #right-col{
 	float: right;
 	width: 300px;
-	border-left: 2px solid grey;
+	border-left: 1px solid #c3c3c3;
 	min-height: 300px;
+	height:100%;
 
 }
 
 #recent{
+	position: relative;
 	margin: 0 auto;
 	padding: 40px 8px 0 20px;
 }
@@ -301,20 +381,35 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	float:left;	
 }
 
-#recent p{
+#recent div{
 	margin: 0 auto;
-	padding: 10px 0;
+	padding: 5px 0;
 }
 
-#recent  a{
+#recent  div a{
 	color: #a44646;
 	text-decoration: none;
 	font-size:small;
 	text-align: center;
+	padding: 0 !important;
+	font-weight: normal;
+}
+
+#recent  a{
+	font-size: .8em;
+	padding: 0 0 0 10px;
+	color: #a44646;
+	text-decoration: none;
+	display:block;
+	font-weight: bold;
+}
+
+#recent  a:hover{
+	color: #ed1c24;
 }
 
 #recent a span{
-	background: url(/img/arrow.png) 0 4px no-repeat;
+	background: url(/img/red_arrow.png) 2px 5px no-repeat;
 	height:20px;
 	width:12px;
 	display: block;
@@ -323,10 +418,170 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	
 }
 
-#recent div{
-	font-size: .8em;
+#recent div p{
+	margin: 0 0 0 17px;
+	font-size: .6em;
 	color: #7c7c7d;
 }
+
+
+/*
+ *    MAIN CONTENT FOR INNER 2nd PAGE
+ *    ===============================
+ **/
+
+#inner-content-top{
+	margin: 5px 0 0 3px;
+	padding: 0;
+	min-height: 70px;
+	background: url(/img/circuit_img.png) top left no-repeat;
+}
+
+#page-name{
+	float: left;
+	margin: 0px 0 0 20px;
+	color: #fff;
+	font-size: .8em;
+}
+
+#page-name h1{
+	padding: 8px 0;
+	font-weight: normal;
+	font-size: 2em;
+}
+ 
+ 
+ #inner-content-bottom{
+	margin: 0 auto;
+	padding: 0;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#edeeef), to(#cacaca));
+	background: -moz-linear-gradient(#edeeef, #cacaca);
+	background: linear-gradient(#edeeef, #cacaca);
+	-pie-background: linear-gradient(#edeeef, #cacaca);
+	width: 996px;
+	min-height: 720px;
+	height: 100%;
+}
+
+#inner-pic{
+	margin: 10px 0 10px 20px;
+	float: right;
+	height: 230px;
+	width: 420px;
+	background: url(/img/inner-pic.png) 0 0 no-repeat;
+}
+
+#inner-pic div{
+	margin: 210px 15px 0 0;
+	padding: 0;
+	font-size: .6em;
+	color: #6a6a6a;
+	text-align:center;
+}
+
+#inner-info{
+	margin: 10px 20px 40px 20px;
+	color: #717172;
+	font-size: .8em;
+	line-height: 1.7em;
+}
+
+#inner-info h1{
+	font-weight: normal;
+	font-size: 1.8em;
+	color: #7e7e7e;
+	padding: 0 0 10px 0;
+	margin: 0 auto;
+}
+
+ 
+
+/*
+ *       SIDEBAR
+ *    ===============
+ **/
+ 
+#sidebar{
+
+} 
+
+#sidebar h1{
+	font-weight: normal;
+	font-size: 1.5em;
+	color: #5a5c5e;
+	text-align: center;
+	border-bottom: 1px solid #bebbbb;
+	padding: 10px 10px 20px 10px;;
+}
+
+#sidebar ul{
+	text-decoration: none;
+}
+
+#sidebar ul li{
+	margin: 0 auto;
+	padding: 8px;
+	border-bottom: 1px solid #bebbbb;
+	/* border-image: url(/img/overlap_line.png) 0 0 no-repeat; */
+	
+}
+
+#sidebar ul li a{
+	margin: 0 auto;
+	padding: 10px 5px 10px 20px;
+	color: #818283;
+}
+
+#sidebar ul li a:hover{
+	color: #ed1c24;	
+}
+ 
+#links{
+	position: relative;
+	margin: 0 auto;
+	padding: 40px 8px 0 20px;
+}
+
+#links h2{
+	font-weight: normal;
+	font-size: 1.3em;
+	color: #b5b5b8;
+	padding: 0 0 10px 0;
+}
+
+#links div{
+	padding: 10px 0;
+}
+
+
+#links div a{
+	color: #a44646;
+	text-decoration: none;
+	font-size: .9em;
+	text-align: center;
+	padding: 0 10px 0 0;
+	font-weight: normal;
+}
+
+#links div a:hover{
+	color: #ed1c24;
+}
+
+#links p{
+	font-size: .8em;
+	padding: 5px 25px 40px 0;
+	color: #abadae;
+}
+
+#grey-arrow{
+	position: absolute;
+	right: 290px;
+	top: 45px;
+}
+ 
+ 
+ 
+
 
 /*
  *       FOOTER
@@ -338,4 +593,21 @@ html, body    { overflow-x: hidden; font-family: Tahoma; min-height:500px; posit
 	clear: both;
 	min-height: 50px;
 	background: url(/img/footer_bck.png) bottom repeat-x;
+}  
+
+#footer a{
+	color: #5f5f5f;
+
+}
+
+#footer a:hover{
+	color: #fff;
+
+} 
+
+#footer p{
+	padding: 15px 0 0 0;
+	text-align:center;
+	color: #5f5f5f;
+	font-size: .9em;
 }

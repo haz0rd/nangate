@@ -6,6 +6,7 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<title> Nangate </title>
 		<link href="style.css" rel="stylesheet" type="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=Metrophobic&v1' rel='stylesheet' type='text/css'>
 	
 	</head>
 		
@@ -27,12 +28,12 @@
 				<div class="mainMenu">
 					
 						  <ul>
-							<li><a href="index.html" title="">Corporate</a>
+							<li class="active"><a href="inner.php" title="">Corporate</a>
 							
-									<ul id="subnav-top">               
+									<ul class="subnav-top">               
 										<li><a href="#">Management</a></li>
 										<li><a href="#">Board of Directors</a></li>
-										<li><a href="#">Technical </a></li>
+										<li><a href="#">Technical Advisory Board</a></li>
 										<li><a href="#">Partners</a></li>
 										<li><a href="#">Investors</a></li>
 										<li><a href="#">Careers</a></li>
@@ -43,7 +44,7 @@
 							</li>
 							<li><a href="#" title="">Products</a></li>
 							<li><a href="#" title="">Support</a></li>
-							<li><a href="#" title="">Open Celll Library</a></li>
+							<li><a href="#" title="">Open Cell Library</a></li>
 							<li><a href="#" title="">Contact Us</a></li>							
 							<li id="search"> Search <span>GO</span> </li>
 		
@@ -64,12 +65,23 @@
 					
 					<div id="content-top">
 					
+						<div id="snippit">
+							Nangate leads the path to IC  optimization utopia.
+							Loresum ipsum dolor sit amet, consectetuer adipiscing elit.
+							Morbi commodo, ipsum sed phareta gravida, orci magna rhoncus neque, 
+							id pulvinar odio lorem non turpis. Nullam sit amet enim...
+							<br/><br/>
+						
+							<a href="#" id="what-we-do"><span></span> What We Do </a>
+							
+						</div>
+					
 					</div>
 					
 					<div id="content-bottom">
 					
 						<div id="left-col">
-							<div id="pic">
+							<div id="wheel">
 							
 							</div>
 							
@@ -100,29 +112,31 @@
 							<div id="recent">
 								<h1> <span></span> Recent Headlines </h1>
 								
-								<p>
+								<div>
 									<a href="#"> NDO and Library Creator used by TSMC to improve chip implementation performace</a>
-									<div>
+									<p>
 										March 8, 2011
-									</div>
-								</p>	
-								<p>
+									</p>
+								</div>	
+								<div>
 									<a href="#"> NDO and Library Creator used by TSMC to improve chip implementation performace</a>
-									<div>
+									<p>
 										March 8, 2011
-									</div>
-								</p>	
-								<p>
+									</p>
+								</div>	
+								<div>
 									<a href="#"> NDO and Library Creator used by TSMC to improve chip implementation performace</a>
-									<div>
+									<p>
 										March 8, 2011
-									</div>
-								</p>
-								
-								<a href="#"> <span></span> More Info  </a>
+									</p>
+								</div>
+								<br/>
+								<a href="#"> <span></span> More News  </a>
 							</div>
 							
 						</div><!-- end right col -->
+						
+						<div style="clear:both"></div>
 						
 					</div><!-- end bottom content -->
 				
@@ -137,7 +151,9 @@
 		
 		
 		<div id="footer">
-		
+			<p>
+				&copy Nangate Inc, all rights reserved. Website by <a href="jabico.com"> Jabico Enterprises </a>
+			</p>
 		</div>
 		
 	</body>
