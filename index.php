@@ -110,7 +110,7 @@
 						<div id="right-col">
 						
 							<div id="recent">
-								<h1> <span></span> Recent Headlines </h1>
+								<h1> <span></span><br/> Recent Headlines </h1>
 								
 								<div>
 									<a href="#"> NDO and Library Creator used by TSMC to improve chip implementation performace</a>

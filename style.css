@@ -295,7 +295,7 @@ body a { text-decoration: none; }
 	float: left;
 	width: 680px;
 	margin: 0 10px 0 0;
-	padding: 40px 0 0 0;
+	padding: 30px 0 0 0;
 
 }
 
@@ -361,19 +361,20 @@ body a { text-decoration: none; }
 #recent{
 	position: relative;
 	margin: 0 auto;
-	padding: 40px 8px 0 20px;
+	padding: 30px 8px 0 20px;
 }
 
 #recent h1{
 	color: #79443f;
 	font-size: 1em;
 	height: 40px;
+	line-height: .5em;
 
 }
 
 
 #recent span{
-	background: url(/img/tower.png) 0 -2px no-repeat;
+	background: url(/img/towerz.png) 0 0 no-repeat;
 	height:40px;
 	width:40px;
 	display: block;
@@ -383,7 +384,8 @@ body a { text-decoration: none; }
 
 #recent div{
 	margin: 0 auto;
-	padding: 5px 0;
+	margin-right: 5px;
+	padding: 5px 20px 5px 0;
 }
 
 #recent  div a{
@@ -419,7 +421,7 @@ body a { text-decoration: none; }
 }
 
 #recent div p{
-	margin: 0 0 0 17px;
+	margin: 0 0 0 5px;
 	font-size: .6em;
 	color: #7c7c7d;
 }
