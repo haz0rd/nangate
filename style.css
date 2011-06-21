@@ -33,7 +33,6 @@ body a { text-decoration: none; }
 	margin: 0 auto;
 	padding: 0;
 	height: 93px;
-
 }
 
 #topnav{
@@ -65,7 +64,7 @@ body a { text-decoration: none; }
 
 .mainMenu{
 	position:relative;
-	margin: 20px 100px 0 0;
+	margin: 22px 100px 0 0;
 	float: right;
 }
 
@@ -77,7 +76,6 @@ body a { text-decoration: none; }
 	padding: 5px 15px 0 0;
 	text-transform: uppercase;
 	font-size: .8em;
-	
 }
 
 .mainMenu li a {
@@ -87,12 +85,10 @@ body a { text-decoration: none; }
 
 .mainMenu li a:hover {
 	color: #ed1c24;
-	
 }
 
 .mainMenu ul li.active {
 	background: url(/img/dots.png) 10px -4px no-repeat;
-	
 }
 
 .mainMenu ul li ul li:hover {
@@ -106,9 +102,8 @@ body a { text-decoration: none; }
 	padding: 5px 8px 0 3px;
 	color: #890c0b;
 	text-transform: none;
-	
-
 }
+
 .mainMenu ul li:hover ul{
 	border: 1px solid #696;
 	padding: 0;
@@ -126,8 +121,6 @@ body a { text-decoration: none; }
 	background: -moz-linear-gradient(#f0f3f5, #f0f3f5);
 	background: linear-gradient(#f0f3f5, #f0f3f5);
 	-pie-background: linear-gradient(#f0f3f5, #f0f3f5);
-	
-
 }
 
 .mainMenu li.active a {
@@ -148,9 +141,8 @@ body a { text-decoration: none; }
 
 .mainMenu ul li ul{
 	position:absolute;
-	left: -82px;
+	left: -80px;
 	top: 22px;
-
 }
 
 .subnav-top{
@@ -602,7 +594,6 @@ body a { text-decoration: none; }
 
 #footer a{
 	color: #5f5f5f;
-
 }
 
 #footer a:hover{
