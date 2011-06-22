@@ -5,21 +5,29 @@
 html, body, div, p, li, ul, form, fieldset, h1, h2, h3, h4, h5, h6   { margin: 0; padding: 0; list-style: none; }
 
 
-html, body    { font-family: Metrophobic; width: 100%; }
+html, body    { font-family: Tahoma; /* or Metrophobic; (doesn't look right)*/ width: 100%;}
 
+html {height:100%;}
 
 body a { text-decoration: none; }
 
 
 .w1200 {
 	width: 1200px; 
-	min-height: 100%;
 	margin: 0 auto;
 	padding: 0;
-	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#dadde0), to(#a6aaac));
-	background: -moz-linear-gradient(#dadde0, #a6aaac);
-	background: linear-gradient(#dadde0, #a6aaac);
-	-pie-background: linear-gradient(#dadde0, #a6aaac);
+	background: #cfcfcf url(/img/body_bck.jpg) center repeat-y;
+	
+	
+/* gradient background	
+
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#cfcfcf ), to(#a6aaac));
+	background: -moz-linear-gradient(#cfcfcf , #a6aaac);
+	background: linear-gradient(#cfcfcf , #a6aaac);
+	-pie-background: linear-gradient(#cfcfcf , #a6aaac);
+	
+*/
+
 }
 
 
@@ -59,6 +67,7 @@ body a { text-decoration: none; }
 #topmenu{
 	height: 70px;
 	background: #d7d9dc;
+	border-bottom: 2px solid #d1d2d5;
 }
 
 .mainMenu{
@@ -105,10 +114,10 @@ body a { text-decoration: none; }
 
 .mainMenu ul li:hover ul{
 	border: 1px solid #696;
-	padding: 0;
+	padding: 0 0 0 15px;
 	text-align: left; 
 	font-size: 1.2em;
-	width: 180px;
+	width: 200px;
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
 	border-radius: 8px;
@@ -130,11 +139,11 @@ body a { text-decoration: none; }
 	float: left;
 	text-decoration: none;
 	display: none;	
-	width: 200px;
+	width: 180px;
 }
 
 .mainMenu ul li ul li a{
-	padding: 5px 0 0 15px;
+	padding: 5px 0 0 0;
 	color: #890c0b;
 }
 
@@ -142,6 +151,7 @@ body a { text-decoration: none; }
 	position:absolute;
 	left: -80px;
 	top: 22px;
+	width: 200px;
 }
 
 .subnav-top{
@@ -150,15 +160,13 @@ body a { text-decoration: none; }
 
 .subnav-top a{
 	color: #890c0b !important;
+	width: 150px;
 }
 
 .subnav-top a:hover{
 	color: #ed1c24 !important;
 }
 
-#subnav-bottom{
-	background: url(/img/subnav_bottom_bck.png) no-repeat transparent;
-}
 
 
 #search{
@@ -206,13 +214,14 @@ body a { text-decoration: none; }
 #main{
 	clear: both;
 	margin: 0 auto;
+	margin-top: 2px;
 	padding: 0;
 	width: 1200px;
 	min-height: 500px;
 }
 
 #main-top{
-	background: url(/img/background.png) 0 -75px scroll;
+	background: url(/img/main_bck.jpg) 0 0 repeat-y;
 	min-height: 700px;
 }
 
@@ -231,6 +240,7 @@ body a { text-decoration: none; }
 .content {
 	width: 1004px;
 	min-height: 700px;
+	height: 100%;
 	margin: 0 auto;
 	padding: 10px 0 0 0;
 	background:  url(/img/content_shadow.png) -2px 8px  no-repeat;
@@ -240,6 +250,7 @@ body a { text-decoration: none; }
 	margin: 3px 0 0 2.5px;
 	padding: 0;
 	min-height: 333px;
+	height: 100%;
 	background: url(/img/circuit_img.png) top left no-repeat;
 }
 
@@ -274,10 +285,10 @@ body a { text-decoration: none; }
 #content-bottom{
 	margin: 0 auto;
 	padding: 0;
-	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f2f2f3), to(#b0b0b0));
-	background: -moz-linear-gradient(#f2f2f3, #b0b0b0);
-	background: linear-gradient(#f2f2f3, #b0b0b0);
-	-pie-background: linear-gradient(#f2f2f3, #b0b0b0);
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#f2f2f3), to(#d2d2d2));
+	background: -moz-linear-gradient(#f2f2f3, #d2d2d2);
+	background: linear-gradient(#f2f2f3, #d2d2d2);
+	-pie-background: linear-gradient(#f2f2f3, #d2d2d2);
 	height: 100%;
 	min-height: 365px;
 	width: 994px;
@@ -381,7 +392,7 @@ body a { text-decoration: none; }
 	color: #a44646;
 	text-decoration: none;
 	font-size:small;
-	text-align: center;
+	text-align: left;
 	padding: 0 !important;
 	font-weight: normal;
 }
@@ -445,12 +456,12 @@ body a { text-decoration: none; }
  #inner-content-bottom{
 	margin: 0 auto;
 	padding: 0;
-	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#edeeef), to(#cacaca));
-	background: -moz-linear-gradient(#edeeef, #cacaca);
-	background: linear-gradient(#edeeef, #cacaca);
-	-pie-background: linear-gradient(#edeeef, #cacaca);
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#edeeef), to(#d2d2d2));
+	background: -moz-linear-gradient(#edeeef, #d2d2d2);
+	background: linear-gradient(#edeeef, #d2d2d2);
+	-pie-background: linear-gradient(#edeeef, #d2d2d2);
 	width: 996px;
-	min-height: 720px;
+	min-height: 100%;
 	height: 100%;
 }
 
@@ -502,7 +513,7 @@ body a { text-decoration: none; }
 	color: #5a5c5e;
 	text-align: center;
 	border-bottom: 1px solid #bebbbb;
-	padding: 10px 10px 20px 10px;;
+	padding: 10px;
 }
 
 #sidebar ul{

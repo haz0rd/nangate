@@ -90,7 +90,7 @@
 								<br/>
 								
 								Nangate was incorprated in October 2004 by an dexpierenced mangment team, and now has 66 employees at
-								offices in DEnmark, Russia, Brazil and the USA.
+								offices in Denmark, Russia, Brazil and the USA.
 								<br/>
 								<br/>
 								
@@ -99,6 +99,24 @@
 								yeild and shorter time to market. Suspendissee vestibulum dignissim quam. Integer vel augue. Phasellus nulla purus interdum ac, 
 								venenatis non, varius rutrum, leo. Pellentesque habitant morbi tristique.
 								<br/>
+								<br/>
+								Nangate's Global development teams are creating aexiting new range of products that arebeinifiting IC designers and manufatcutres. The
+								benefits include lower IC pwer consumption, reduced manufacturing cots, higher chip performance, improved
+								yeild and shorter time to market. Suspendissee vestibulum dignissim quam. Integer vel augue. Phasellus nulla purus interdum ac, 
+								venenatis non, varius rutrum, leo. Pellentesque habitant morbi tristique.
+						<br/>
+								<br/>
+								Nangate's Global development teams are creating aexiting new range of products that arebeinifiting IC designers and manufatcutres. The
+								benefits include lower IC pwer consumption, reduced manufacturing cots, higher chip performance, improved
+								yeild and shorter time to market. Suspendissee vestibulum dignissim quam. Integer vel augue. Phasellus nulla purus interdum ac, 
+								venenatis non, varius rutrum, leo. Pellentesque habitant morbi tristique.
+						<br/>
+								<br/>
+								Nangate's Global development teams are creating aexiting new range of products that arebeinifiting IC designers and manufatcutres. The
+								benefits include lower IC pwer consumption, reduced manufacturing cots, higher chip performance, improved
+								yeild and shorter time to market. Suspendissee vestibulum dignissim quam. Integer vel augue. Phasellus nulla purus interdum ac, 
+								venenatis non, varius rutrum, leo. Pellentesque habitant morbi tristique.
+						<br/>
 								<br/>
 								Nangate's Global development teams are creating aexiting new range of products that arebeinifiting IC designers and manufatcutres. The
 								benefits include lower IC pwer consumption, reduced manufacturing cots, higher chip performance, improved
